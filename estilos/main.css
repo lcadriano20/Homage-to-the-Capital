@@ -1,0 +1,86 @@
+/* MAIN */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#div-h2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.section-curiosidades {
+    display: flex;
+    flex-direction: column;
+    max-width: 1077px;
+    gap: 37px;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.conteudo {
+    
+    display: flex;
+    gap: 36px;
+}
+.div-filha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 534px;
+    width: 420px;
+    border-radius: 31px;
+    background-color: gray;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.div-filha1 {
+    height: 200px;
+    background-image: url(http://brasiliatour.com.br/wp-content/uploads/2012/10/Itamaraty-II.jpg);
+    background-position: center;
+    border-radius: 10px;
+    
+    
+}
+.conteudo-filha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    
+}
+
+.div-filha2 {
+    height: 200px;
+    background-image: url(https://www.viagensecaminhos.com/wp-content/uploads/2016/09/palacio-da-alvorada-brasilia.jpg);
+    background-position: center;
+    border-radius: 10px;
+}
+.conteudo-filha2 {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.div-filha3 {
+    background-image: url(https://blog.clubecandeias.com/wp-content/uploads/2018/08/lugares-especiais-para-conhecer-em-brasilia.jpg);
+    background-position: center;
+    height: 200px;
+    border-radius: 10px;
+
+}
+.conteudo-filha3 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}

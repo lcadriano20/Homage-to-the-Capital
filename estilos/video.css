@@ -1,0 +1,11 @@
+.section-video {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+iframe {
+    margin: 7px;
+}

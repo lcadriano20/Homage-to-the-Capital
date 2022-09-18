@@ -1,0 +1,15 @@
+/* BANNER */
+
+.section-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 11rem;
+}
+.banner {
+    height: 550px;
+    width: 100%;
+    
+}
+
+

@@ -1,0 +1,55 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 414px;
+    width: 100%;
+    background-color: black;
+    
+}
+.redes-sociais {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer-filha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+   
+}
+
+
+.linkedin {
+    height: 90px;
+    border-radius: 50%;
+    
+}
+.github {
+    border-radius: 50%;
+    height: 90px;
+    
+}
+
+
+.linkedin:hover {
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px gray;
+    transition: 0.2s;
+    transform: scale(1.2);
+    
+    
+    
+}
+.github:hover {
+    border: 2px solid white;
+    transition: 0.2s;
+    transform: scale(1.2);
+    
+}
+
+
+
+
